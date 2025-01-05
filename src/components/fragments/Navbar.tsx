@@ -2,6 +2,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState } from "react";
+import { Button } from "../elements/button";
 
 // List Menu Items
 const links = [
@@ -48,6 +49,13 @@ const Navbar = () => {
                     {link.text}
                   </Link>
                 ))}
+                {/* tombol login */}
+                <Button
+                  asChild
+                  className="text-secondary font-semibold hover:bg-secondary hover:text-primary"
+                >
+                  <Link href="/login">Login</Link>
+                </Button>
               </div>
             </div>
             {/* Toggler Menu */}
