@@ -13,7 +13,7 @@ export default function Superiority() {
         
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
           {/* Card 1 */}
-          <div className="bg-[#FFB800] rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
+          <div className="bg-primary rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
             <div className="w-12 h-12 mx-auto mb-4 flex items-center justify-center">
               <Layers className="w-8 h-8 text-secondary" />
             </div>
@@ -24,7 +24,7 @@ export default function Superiority() {
           </div>
 
           {/* Card 2 */}
-          <div className="bg-[#FFB800] rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
+          <div className="bg-primary rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
             <div className="w-12 h-12 mx-auto mb-4 flex items-center justify-center">
               <Banana className="w-8 h-8 text-secondary" />
             </div>
@@ -35,7 +35,7 @@ export default function Superiority() {
           </div>
 
           {/* Card 3 */}
-          <div className="bg-[#FFB800] rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
+          <div className="bg-primary rounded-lg p-6 text-center hover:shadow-lg transition-shadow">
             <div className="w-12 h-12 mx-auto mb-4 flex items-center justify-center">
               <PoundSterling className="w-8 h-8 text-secondary" />
             </div>
